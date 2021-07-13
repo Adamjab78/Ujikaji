@@ -8,11 +8,16 @@ const Footer = () => {
     return (
       <View style={{ flex: 1, flexDirection: "row" }}>
         <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Ionicons name="home" size={32} color="mediumpurple"></Ionicons>
+      <Ionicons name="home" size={20} color="mediumpurple"></Ionicons>
       </View>
-    
+      <View style={{flex: 2, backgroundColor: "lightgrey",justifyContent: "bottom", alignItems: "center",}}>
+        <Text style={{fontSize: 16, fontWeight: "bold", color: "white" }}>Home</Text>
+      </View>
         <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <AntDesign name="profile" size={32} color="mediumpurple"> </AntDesign>
+        <AntDesign name="profile" size={20} color="mediumpurple"> </AntDesign>
+      </View>
+      <View style={{flex: 2, backgroundColor: "lightgrey",justifyContent: "bottom", alignItems: "center",}}>
+        <Text style={{fontSize: 16, fontWeight: "bold", color: "white" }}>Profile</Text>
       </View>
       </View>
     );

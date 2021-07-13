@@ -9,15 +9,15 @@ const Body = () => {
 
       <View style={{ flex: 8 }}>
        <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
-        <Text style={{fontSize: 20, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; PROFILE</Text>
+        <Text style={{fontSize: 17, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; PROFILE</Text>
       </View>
        
         <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
-        <Text style={{ fontSize: 20, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; SHEDULE</Text>
+        <Text style={{ fontSize: 17, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; SHEDULE</Text>
       </View>
          
       <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
-        <Text style={{ fontSize: 20, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; NEWS</Text>
+        <Text style={{ fontSize: 17, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; NEWS</Text>
       </View>
         
          
