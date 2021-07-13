@@ -11,6 +11,7 @@ export default function App() {
       <Text>................................</Text>
       <Text>ok hari ni dah faham sikit</Text>
       <Text>                          </Text>
+      <Text>Hooraaaa...</Text>
       <Text>Hoorayyy...</Text>
       <StatusBar style="auto" />
     </View>
