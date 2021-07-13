@@ -1,18 +1,17 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import {Ionicons} from "@expo/vector-icons";
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { Text, View } from "react-native";
+import { EvilIcons } from '@expo/vector-icons';
 
 const Header = () => {
   return (
-    <View style={{ flex: 1, flexDirection: "row" }}>
-      <View style={{ flex: 1, backgroundColor: "ghostwhite"}}></View>
-      <View style={{flex: 2, backgroundColor: "lightgrey",justifyContent: "center", alignItems: "center",}}>
-        <Text style={{fontSize: 24, fontWeight: "bold", color: "white" }}>HOME</Text>
+     <View style={{ flex: 1, flexDirection: "row" }}>
+      <View style={{ flex: 1, backgroundColor: "lightgray "}}></View>
+      <View style={{flex: 2, backgroundColor: "lightgray ",justifyContent: "center", alignItems: "center",}}>
+        <Text style={{fontSize: 20, fontWeight: "bold", color: "dimgray" }}>HOME</Text>
       </View>
-      <View style={{ flex: 1, backgroundColor: "ghostwhite",justifyContent: "center", alignItems: "center" }}>
-      <MaterialCommunityIcons name="face-profile" size={32} color="grey"></MaterialCommunityIcons>
+      <View style={{ flex: 1, backgroundColor: "lightgray ",justifyContent: "center", alignItems: "center" }}>
+        <EvilIcons name={"user"} size={30} color={"dimgray"}></EvilIcons>
       </View>
     </View>
   );
