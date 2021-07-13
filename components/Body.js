@@ -5,8 +5,8 @@ import { StyleSheet, Text, View } from "react-native";
 const Body = () => {
   return (
 
-      <View style={{ flex: 7 }}>
-        <View style={{ flex: 1, backgroundColor: "grey" }}></View>
+      <View style={{ flex: 8 }}>
+        <View style={{ flex: 1, backgroundColor: "khaki" }}></View>
       </View>
      
   );
