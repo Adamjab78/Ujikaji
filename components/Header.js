@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { Text, View } from "react-native";
-import { EvilIcons } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
         <Text style={{fontSize: 20, fontWeight: "bold", color: "dimgray" }}>HOME</Text>
       </View>
       <View style={{ flex: 1, backgroundColor: "lightgray ",justifyContent: "center", alignItems: "center" }}>
-        <EvilIcons name={"user"} size={30} color={"dimgray"}></EvilIcons>
+        <FontAwesome name={"user-circle-o"} size={26} color={"dimgray"}></FontAwesome>
       </View>
     </View>
   );
