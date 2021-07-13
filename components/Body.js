@@ -7,6 +7,7 @@ const Body = () => {
 
       <View style={{ flex: 8 }}>
        <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
+       &nbsp;
         <Text style={{fontSize: 15, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; PROFILE</Text>
         <View style={{ backgroundColor: "ghostwhite", alignItems: "center",}}>
         &nbsp; &nbsp;
@@ -18,6 +19,7 @@ const Body = () => {
       
       </View>
         <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
+        &nbsp;
         <Text style={{ fontSize: 15, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; SHEDULE</Text>
         <View style={{ backgroundColor: "ghostwhite", alignItems: "center",}}>
         &nbsp; &nbsp;
@@ -29,6 +31,7 @@ const Body = () => {
         </View>
          
       <View style={{flex: 1, backgroundColor: "ghostwhite", alignItems: "left",}}>
+      &nbsp;
         <Text style={{ fontSize: 15, fontWeight: "bold", color: "dodgerblue" }}>&nbsp; &nbsp; NEWS</Text>
       </View>
         
